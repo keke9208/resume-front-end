@@ -1,0 +1,12 @@
+$base-color: #007acc;
+
+
+$introduction-width: 480px;
+$introduction-width-1400 :360px;
+
+@mixin media-1400{
+  @media screen and (max-width: 1400px) {
+    @content;
+  }
+  
+}

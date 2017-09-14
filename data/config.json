@@ -1,0 +1,55 @@
+{
+  "languageList": {
+    "zh-hans": {
+      "information": "data/information.json",
+      "introduction": "data/introduction_zh-hans.json",
+      "resume": "data/resume_zh-hans.json",
+      "colon": "：",
+      "separator": "、",
+      "period": "。",
+      "title": "简历-WEB前端"
+    }
+  },
+  "defaultLanguage": "zh-hans",
+  "permissionList": {
+    "default": {
+      "name": false,
+      "position":true,
+      "mobile": false,
+      "email": true,
+      "district": true,
+      "address": false,
+      "qq": true,
+      "wechat": true,
+      "facebook": false,
+      "linkedin": false,
+      "github": true
+    },
+    "51":{
+      "name": true,
+      "position":true,
+      "mobile": true,
+      "email": true,
+      "district": true,
+      "address": false,
+      "qq": true,
+      "wechat": true,
+      "facebook": false,
+      "linkedin": true,
+      "github": true
+    },
+    "zhilian":{
+      "name": true,
+      "position":true,
+      "mobile": true,
+      "email": true,
+      "district": true,
+      "address": false,
+      "qq": true,
+      "wechat": true,
+      "facebook": false,
+      "linkedin": true,
+      "github": true
+    }
+  }
+}

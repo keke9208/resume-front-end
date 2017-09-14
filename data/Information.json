@@ -1,0 +1,55 @@
+[
+  {
+    "name": "name",
+    "content": "温轲"
+  },
+  {
+    "name": "nickName",
+    "content": "......"
+  },
+  {
+    "name": "position",
+    "content": "Web 前端"
+  },
+  {
+    "name": "mobile",
+    "content": "(+86)18604097592",
+    "link": "tel:+8618604097592"
+  },
+  {
+    "name": "email",
+    "content": "wenke-9208@163.com",
+    "link": "mailto:wenke-9208@163.com"
+  },
+  {
+    "name": "district",
+    "content": "辽宁 大连 沙河口区"
+  },
+  {
+    "name": "address"
+  },
+  {
+    "name": "qq",
+    "content": "330360809"
+  },
+  {
+    "name": "wechat",
+    "content": "keke9208"
+  },
+  {
+    "name": "facebook",
+    "content": ""
+  },
+  {
+    "name": "linkedin",
+    "content": "linkedin.com/in/%E8%BD%B2-%E6%B8%A9-1149748b",
+    "link": "https://www.linkedin.com/in/%E8%BD%B2-%E6%B8%A9-1149748b/",
+    "target": "_blank"
+  },
+  {
+    "name": "github",
+    "content": "github.com/keke9208",
+    "link": "https://www.github.com/keke9208",
+    "target": "_blank"
+  }
+]

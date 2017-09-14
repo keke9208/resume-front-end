@@ -1,0 +1,110 @@
+@import "_common";
+
+header {
+  width: $introduction-width;
+  height: 100%;
+  overflow-y: auto;
+  background-color: mix($base-color * 1.6, #ffffff);
+  display: flex;
+  flex-direction: column;
+  @include media-1400{
+    width: $introduction-width-1400;
+  }
+}
+
+.introduction-header {
+  height: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $base-color;
+  color: #ffffff;
+  @media screen and (max-height: 720px) {
+    height: 240px;
+  }
+  .name {
+    align-self: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+}
+
+.introduction-body {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  ul {
+    padding: 40px 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    color: #000000;
+    li {
+      width: 320px;
+      display: flex;
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+      .item-name {
+        width: 80px;
+      }
+      .item-detail {
+        width: 240px;
+        word-break: break-all;
+        a {
+          color: #000000;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+
+nav {
+  padding-top: 110px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  &>div{
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px 0; 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style: solid none solid solid;
+    border-width: 1px;
+    border-color: #000000;
+    transition-duration: 0.2s;
+    background-color: #ffffff;
+    cursor: pointer;
+    &:hover:not(.active){
+      color: #ffffff;
+      background-color: $base-color; 
+    }
+  }
+  .active{
+    padding-right: 10px;
+    background-color: #ffffff;
+  }
+}
+
+.introduction-footer{
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  &>div{
+    margin: 0 1em;
+    cursor: pointer;
+    user-select: none;
+  }
+}

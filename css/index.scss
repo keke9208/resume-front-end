@@ -1,0 +1,23 @@
+html{
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: DengXian, 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, Tahoma, Simsun, sans-serif;
+  display: flex;
+  height: 100%;
+}
+@import "_header";
+$content-width: 800px;
+.content{
+  flex-grow: 1;
+  padding: 40px calc((100% - #{$introduction-width + $content-width}) / 2);
+  height: calc(100% - 80px);
+  width: $content-width;
+  overflow-y: auto;
+  @include media-1400{
+    padding: 40px calc((100% - #{$introduction-width-1400 + $content-width}) / 2); 
+  }
+}
+
+@import "_home";
