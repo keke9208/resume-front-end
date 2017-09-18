@@ -33,6 +33,8 @@ header {
   align-items: center;
   background-color: #007acc;
   color: #ffffff;
+  padding: 20px 0;
+  box-sizing: border-box;
 }
 
 @media screen and (max-height: 720px) {

@@ -8,5 +8,9 @@ $introduction-width-1400 :360px;
   @media screen and (max-width: 1400px) {
     @content;
   }
-  
+}
+@mixin media-1200{
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
 }

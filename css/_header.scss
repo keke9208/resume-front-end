@@ -21,6 +21,8 @@ header {
   align-items: center;
   background-color: $base-color;
   color: #ffffff;
+  padding: 20px 0;
+  box-sizing: border-box;
   @media screen and (max-height: 720px) {
     height: 240px;
   }
