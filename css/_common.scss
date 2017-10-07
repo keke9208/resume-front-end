@@ -14,3 +14,13 @@ $introduction-width-1400 :360px;
     @content;
   }
 }
+@mixin media-720{
+  @media screen and (max-width: 720px) {
+    @content;
+  }
+}
+@mixin media-480{
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}

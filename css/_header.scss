@@ -10,6 +10,14 @@ header {
   @include media-1400{
     width: $introduction-width-1400;
   }
+  @include media-1200{
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+  }
+  @include media-720{
+    flex-direction: column;
+  }
 }
 
 .introduction-header {
@@ -26,17 +34,34 @@ header {
   @media screen and (max-height: 720px) {
     height: 240px;
   }
+  @include media-1200{
+    height: auto;
+    width: $introduction-width-1400;
+  }
+  @include media-720{
+    width: auto;
+    flex-direction: row;
+    padding: 40px 0;
+  }
   .name {
     align-self: center;
     font-size: 32px;
     margin-bottom: 10px;
+    @include media-720{
+      margin-right: 10px;
+    }
   }
 }
 
 .introduction-body {
-  display: flex;
   justify-content: flex-end;
   flex-grow: 1;
+  @include media-1200{
+    width: calc(100% - #{$introduction-width-1400});
+  }
+  @include media-720{
+    width: auto;
+  }
   ul {
     padding: 40px 0;
     margin: 0;
@@ -46,9 +71,16 @@ header {
     align-items: center;
     flex-grow: 1;
     color: #000000;
+    @include media-1200{
+      padding: 20px;
+      align-items:stretch;
+    }
     li {
       width: 320px;
       display: flex;
+      @include media-1200{
+        width: 100%;
+      }
       &:not(:last-child) {
         margin-bottom: 10px;
       }
@@ -56,7 +88,7 @@ header {
         width: 80px;
       }
       .item-detail {
-        width: 240px;
+        width: calc(100% - 80px);
         word-break: break-all;
         a {
           color: #000000;
@@ -100,7 +132,7 @@ nav {
 }
 
 .introduction-footer{
-  height: 40px;
+  height: auto;
   display: flex;
   justify-content: flex-end;
   align-items: center;

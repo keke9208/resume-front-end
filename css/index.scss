@@ -1,3 +1,4 @@
+@import "_common";
 html{
   height: 100%;
 }
@@ -6,6 +7,10 @@ body {
   font-family: DengXian, 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, Tahoma, Simsun, sans-serif;
   display: flex;
   height: 100%;
+  @include media-1200{
+    flex-direction: column;
+    height: auto;
+  }
 }
 @import "_header";
 $content-width: 800px;
@@ -17,6 +22,11 @@ $content-width: 800px;
   overflow-y: auto;
   @include media-1400{
     padding: 40px calc((100% - #{$introduction-width-1400 + $content-width}) / 2); 
+  }
+  @include media-1200{
+    padding: 20px;
+    width: auto;
+    height: auto;
   }
 }
 

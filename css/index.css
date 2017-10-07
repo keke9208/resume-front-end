@@ -9,6 +9,13 @@ body {
   height: 100%;
 }
 
+@media screen and (max-width: 1200px) {
+  body {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
 header {
   width: 480px;
   height: 100%;
@@ -21,6 +28,20 @@ header {
 @media screen and (max-width: 1400px) {
   header {
     width: 360px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  header {
+    flex-direction: column;
   }
 }
 
@@ -43,16 +64,48 @@ header {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .introduction-header {
+    height: auto;
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .introduction-header {
+    width: auto;
+    flex-direction: row;
+    padding: 40px 0;
+  }
+}
+
 .introduction-header .name {
   align-self: center;
   font-size: 32px;
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 720px) {
+  .introduction-header .name {
+    margin-right: 10px;
+  }
+}
+
 .introduction-body {
-  display: flex;
   justify-content: flex-end;
   flex-grow: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  .introduction-body {
+    width: calc(100% - 360px);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .introduction-body {
+    width: auto;
+  }
 }
 
 .introduction-body ul {
@@ -66,9 +119,22 @@ header {
   color: #000000;
 }
 
+@media screen and (max-width: 1200px) {
+  .introduction-body ul {
+    padding: 20px;
+    align-items: stretch;
+  }
+}
+
 .introduction-body ul li {
   width: 320px;
   display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .introduction-body ul li {
+    width: 100%;
+  }
 }
 
 .introduction-body ul li:not(:last-child) {
@@ -80,7 +146,7 @@ header {
 }
 
 .introduction-body ul li .item-detail {
-  width: 240px;
+  width: calc(100% - 80px);
   word-break: break-all;
 }
 
@@ -124,7 +190,7 @@ nav .active {
 }
 
 .introduction-footer {
-  height: 40px;
+  height: auto;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -147,6 +213,14 @@ nav .active {
 @media screen and (max-width: 1400px) {
   .content {
     padding: 40px calc((100% - 1160px) / 2);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .content {
+    padding: 20px;
+    width: auto;
+    height: auto;
   }
 }
 
