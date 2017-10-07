@@ -17,7 +17,7 @@
     },
     {
       "name": "期望行业",
-      "content": "互联网、电子商务"
+      "content": "互联网、计算机软件"
     },
     {
       "name": "工作地区",
@@ -39,10 +39,10 @@
     }
   ],
   "selfAssessment": [
-    "熟练掌握HTML、CSS、JavaScript。熟悉jQuery框架。熟悉响应式布局，了解弹性、网格等布局方式，了解Less和Sass，了解ES6(+)。了解不同浏览器差异和前端性能优化。了解浏览器调试工具。熟悉W3C标准，可独立进行前端开发。",
-    "了解微信公众平台与小程序。了解后端技术（JSP、PHP、ASP.NET、node.js，可阅读与修改）。简单了解HTTP。",
-    "了解Typescript，了解自动化构建工具。了解SQL语句，了解视图、索引、存储过程与触发器。",
-    "熟练使用Git、SVN。熟悉Microsoft Office常用软件。",
+    "掌握HTML、CSS、JavaScript。熟悉jQuery框架。熟悉响应式布局，了解弹性、网格等布局方式，了解ES6(+)。了解搜索引擎优化、浏览器兼容、前端性能优化、Web前端安全。了解浏览器调试工具。熟悉W3C标准，可独立进行前端开发。",
+    "了解微信公众平台与小程序。了解HTTP和后端技术。",
+    "了解Less和Sass，了解Typescript，了解自动化构建工具。了解SQL语句。",
+    "熟练使用Git、SVN。熟悉Windows系统、Microsoft Office常用软件。",
     "热爱互联网事业，关注科技与互联网发展。"
   ],
   "workExperience": [
