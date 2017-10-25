@@ -50,6 +50,19 @@
       "facebook": false,
       "linkedin": true,
       "github": true
+    },
+    "resume":{
+      "name": true,
+      "position":true,
+      "mobile": true,
+      "email": true,
+      "district": true,
+      "address": true,
+      "qq": true,
+      "wechat": true,
+      "facebook": false,
+      "linkedin": true,
+      "github": true
     }
   }
 }
