@@ -57,7 +57,7 @@
       "mobile": true,
       "email": true,
       "district": true,
-      "address": true,
+      "address": false,
       "qq": true,
       "wechat": true,
       "facebook": false,
